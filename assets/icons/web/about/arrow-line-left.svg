@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-a {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        opacity: 0;
+      }
+    </style>
+  </defs>
+  <g id="arrow-left" transform="translate(0 0)">
+    <path id="Vector" class="cls-a" d="M6,0H0" transform="translate(10.556 13)"/>
+    <path id="Vector-2" data-name="Vector" class="cls-a" d="M3,0,0,3,3,6" transform="translate(9.31 10)"/>
+    <path id="Vector-3" data-name="Vector" class="cls-2" d="M0,0H26V26H0Z" transform="translate(26 26) rotate(180)"/>
+  </g>
+</svg>

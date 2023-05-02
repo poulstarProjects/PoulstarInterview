@@ -1,0 +1,11 @@
+<svg id="forward-15-seconds" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group" transform="translate(6.7 9.025)">
+    <path id="Vector" d="M3.183,0H.633L0,1.908H1.908a1.275,1.275,0,1,1,0,2.55H0" transform="translate(3.417)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+    <path id="Vector-2" data-name="Vector" d="M1.25,4.45V0L0,1.392" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+  </g>
+  <g id="Group-2" data-name="Group" transform="translate(2.592 1.667)">
+    <path id="Vector-3" data-name="Vector" d="M1.65,2.058,0,0" transform="translate(7.408 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+    <path id="Vector-4" data-name="Vector" d="M13.317,2.983A7.386,7.386,0,1,1,7.408,0a7.212,7.212,0,0,1,1.65.2" transform="translate(0 1.85)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+  </g>
+  <path id="Vector-5" data-name="Vector" d="M0,0H20V20H0Z" fill="none" opacity="0"/>
+</svg>

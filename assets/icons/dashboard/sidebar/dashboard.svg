@@ -1,0 +1,7 @@
+<svg id="grid-6" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <path id="Vector" d="M11.917,18.333h-5.5C1.833,18.333,0,16.5,0,11.917v-5.5C0,1.833,1.833,0,6.417,0h5.5c4.583,0,6.417,1.833,6.417,6.417v5.5C18.333,16.5,16.5,18.333,11.917,18.333Z" transform="translate(1.833 1.833)" fill="none" stroke="#636467" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+  <path id="Vector-2" data-name="Vector" d="M0,0V18.333" transform="translate(12.833 1.833)" fill="none" stroke="#636467" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+  <path id="Vector-3" data-name="Vector" d="M11,0H0" transform="translate(1.833 7.792)" fill="none" stroke="#636467" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+  <path id="Vector-4" data-name="Vector" d="M11,0H0" transform="translate(1.833 14.208)" fill="none" stroke="#636467" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+  <path id="Vector-5" data-name="Vector" d="M22,0H0V22H22Z" fill="none" opacity="0"/>
+</svg>

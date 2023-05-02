@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="message-question" transform="translate(-620 -252)">
+    <path id="Vector" d="M17.5,18.667H12.833L7.642,22.12a1.163,1.163,0,0,1-1.808-.968V18.667A5.511,5.511,0,0,1,0,12.833v-7A5.511,5.511,0,0,1,5.833,0H17.5a5.511,5.511,0,0,1,5.833,5.833v7A5.511,5.511,0,0,1,17.5,18.667Z" transform="translate(622.333 254.835)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Vector-2" data-name="Vector" d="M1.937,5.25V5.005a1.828,1.828,0,0,1,.98-1.552,1.788,1.788,0,0,0,.957-1.517A1.937,1.937,0,1,0,0,1.937" transform="translate(632.063 260.003)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Vector-3" data-name="Vector" d="M0,0H28V28H0Z" transform="translate(620 252)" fill="none" opacity="0"/>
+    <path id="Vector-4" data-name="Vector" d="M.5.5h.01" transform="translate(633.499 267.542)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

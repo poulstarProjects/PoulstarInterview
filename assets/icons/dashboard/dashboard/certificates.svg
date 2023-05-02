@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="195" height="230" viewBox="0 0 195 230">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.119" y1="0.107" x2="0.866" y2="0.895" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7b93f7"/>
+      <stop offset="1" stop-color="#395df7"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3234" data-name="Rectangle 3234" width="195" height="230" rx="15" transform="translate(700 129)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_13" data-name="Mask Group 13" transform="translate(-700 -129)" clip-path="url(#clip-path)">
+    <g id="award" transform="translate(272 34.395)" opacity="0.148">
+      <path id="Vector" d="M0,34.251V62.539C0,72.9,0,72.9,9.79,79.5L36.713,95.04a16.277,16.277,0,0,0,14.685,0L78.32,79.5c9.79-6.6,9.79-6.6,9.79-16.962V34.251c0-10.359,0-10.359-9.79-16.962L51.4,1.75a16.277,16.277,0,0,0-14.685,0L9.79,17.289C0,23.892,0,23.892,0,34.251Z" transform="translate(452.247 216.474)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Vector-2" data-name="Vector" d="M62.611,32.045V17.076Q62.611,0,45.535,0H17.076Q0,0,0,17.076V31.647" transform="translate(464.997 199.384)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Vector-3" data-name="Vector" d="M22.272,2.305l3.244,5.066a4.958,4.958,0,0,0,2.5,1.821l5.806,1.48c3.586.911,4.554,3.984,2.22,6.83l-3.814,4.61a5.108,5.108,0,0,0-.968,2.96l.342,5.976c.228,3.7-2.391,5.578-5.806,4.212l-5.578-2.22a4.911,4.911,0,0,0-3.131,0l-5.578,2.22c-3.415,1.366-6.033-.569-5.806-4.212l.342-5.976a4.979,4.979,0,0,0-.968-2.96L1.269,17.5c-2.334-2.846-1.366-5.92,2.22-6.83l5.806-1.48a4.813,4.813,0,0,0,2.5-1.821l3.244-5.066C17.093-.768,20.28-.768,22.272,2.305Z" transform="translate(477.616 248.249)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H136.6V136.6H0Z" transform="translate(564.605 324.605) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

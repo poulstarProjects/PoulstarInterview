@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="tick-circle" transform="translate(-748 -188)">
+    <path id="Vector" d="M9.167,18.333A9.167,9.167,0,1,0,0,9.167,9.194,9.194,0,0,0,9.167,18.333Z" transform="translate(749.833 189.833)" fill="#00c6a5"/>
+    <path id="Vector-2" data-name="Vector" d="M0,2.594,2.594,5.188,7.792,0" transform="translate(755.104 196.406)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-3" data-name="Vector" d="M0,0H22V22H0Z" transform="translate(748 188)" fill="#00c6a5" opacity="0"/>
+  </g>
+</svg>

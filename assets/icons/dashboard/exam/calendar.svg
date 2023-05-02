@@ -1,0 +1,8 @@
+<svg id="calendar" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <path id="Vector" d="M0,0V2.75" transform="translate(7.333 1.833)" fill="none" stroke="#ed1c25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+  <path id="Vector-2" data-name="Vector" d="M0,0V2.75" transform="translate(14.667 1.833)" fill="none" stroke="#ed1c25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+  <path id="Vector-3" data-name="Vector" d="M11.917,0C14.969.165,16.5,1.329,16.5,5.637V11.3c0,3.777-.917,5.665-5.5,5.665H5.5C.917,16.968,0,15.079,0,11.3V5.637C0,1.329,1.531.174,4.583,0Z" transform="translate(2.75 3.208)" fill="none" stroke="#ed1c25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+  <path id="Vector-4" data-name="Vector" d="M16.042,0H0" transform="translate(2.979 16.133)" fill="none" stroke="#ed1c25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+  <path id="Vector-5" data-name="Vector" d="M2.292,0A1.851,1.851,0,0,0,.211,1.806,1.49,1.49,0,0,0,.88,3.08,1.693,1.693,0,0,0,0,4.565C0,5.7.871,6.407,2.292,6.407S4.583,5.7,4.583,4.565A1.673,1.673,0,0,0,3.694,3.08a1.48,1.48,0,0,0,.669-1.274A1.843,1.843,0,0,0,2.292,0Zm0,2.6a.744.744,0,0,1-.825-.733.733.733,0,0,1,.825-.724.733.733,0,0,1,.825.724A.744.744,0,0,1,2.292,2.6Zm0,2.667c-.6,0-1.045-.3-1.045-.852s.44-.843,1.045-.843,1.045.3,1.045.843S2.9,5.271,2.292,5.271Z" transform="translate(8.708 7.563)" fill="#ed1c25"/>
+  <path id="Vector-6" data-name="Vector" d="M0,0H22V22H0Z" fill="none" opacity="0"/>
+</svg>

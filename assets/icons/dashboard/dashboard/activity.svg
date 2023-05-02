@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="195" height="230" viewBox="0 0 195 230">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.119" y1="0.107" x2="0.866" y2="0.895" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7b93f7"/>
+      <stop offset="1" stop-color="#395df7"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3232" data-name="Rectangle 3232" width="195" height="230" rx="15" transform="translate(700 129)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_12" data-name="Mask Group 12" transform="translate(-700 -129)" clip-path="url(#clip-path)">
+    <g id="profile-2user" transform="translate(528 -29.605)" opacity="0.08">
+      <path id="Vector" d="M26.183,50.487a10.347,10.347,0,0,0-1.878,0,25.3,25.3,0,1,1,1.878,0Z" transform="translate(197.955 263.384)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Vector-2" data-name="Vector" d="M.74,0A19.907,19.907,0,0,1,20.661,19.922,19.949,19.949,0,0,1,1.48,39.843a6.428,6.428,0,0,0-1.48,0" transform="translate(264.664 274.768)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Vector-3" data-name="Vector" d="M10.331,7.812c-13.774,9.221-13.774,24.247,0,33.411,15.653,10.473,41.323,10.473,56.976,0,13.774-9.221,13.774-24.247,0-33.411C51.711-2.6,26.04-2.6,10.331,7.812Z" transform="translate(185.347 327.062)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Vector-4" data-name="Vector" d="M0,34.151A27.533,27.533,0,0,0,11.156,29.2c8.879-6.659,8.879-17.645,0-24.3A28.308,28.308,0,0,0,.171,0" transform="translate(276.389 331.686)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0H136.6V136.6H0Z" transform="translate(308.605 388.605) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

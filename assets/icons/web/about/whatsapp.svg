@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#98ed8a"/>
+      <stop offset="1" stop-color="#59c33c"/>
+    </linearGradient>
+  </defs>
+  <g id="whatsapp" transform="translate(-163)">
+    <rect id="instgram-live-bu-alumni-banner-1200x500" width="52" height="52" rx="15" transform="translate(163)" fill="url(#linear-gradient)"/>
+    <path id="whatsapp-2" data-name="whatsapp" d="M46.255,32A13.694,13.694,0,0,0,32.508,45.641a13.5,13.5,0,0,0,1.973,7.044L32,60l7.611-2.418A13.674,13.674,0,1,0,46.255,32Zm6.836,18.821a3.551,3.551,0,0,1-2.431,1.567c-.645.034-.663.5-4.178-1.027s-5.629-5.241-5.8-5.48a6.742,6.742,0,0,1-1.3-3.654,3.9,3.9,0,0,1,1.338-2.858,1.346,1.346,0,0,1,.952-.4c.277,0,.456-.008.661,0s.512-.043.778.665.9,2.447.984,2.625a.637.637,0,0,1,.006.611,2.387,2.387,0,0,1-.373.568c-.183.2-.386.44-.55.591-.183.167-.373.348-.181.7a10.52,10.52,0,0,0,1.861,2.484,9.592,9.592,0,0,0,2.756,1.832c.345.188.55.167.764-.058S49.3,48,49.55,47.666s.479-.273.8-.146,2.01,1.035,2.355,1.222.575.283.657.431A2.887,2.887,0,0,1,53.091,50.821Z" transform="translate(143 -20.002)" fill="#fff"/>
+  </g>
+</svg>

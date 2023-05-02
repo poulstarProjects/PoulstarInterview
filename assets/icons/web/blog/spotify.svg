@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51">
+  <g id="spotify" transform="translate(-64.049 -63.729)">
+    <circle id="Ellipse_438" data-name="Ellipse 438" cx="25.5" cy="25.5" r="25.5" transform="translate(64.049 63.729)" fill="#3bd75f"/>
+    <g id="Group_260" data-name="Group 260" transform="translate(74.182 79.804)">
+      <path id="Path_8706" data-name="Path 8706" d="M141,185.039c9.918-2.645,21.687-1.984,31.472,3.174" transform="translate(-141 -183.521)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+      <path id="Path_8707" data-name="Path 8707" d="M152,248.636c8.066-2.248,19.042-1.719,26.844,3.174" transform="translate(-150.545 -238.92)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_8708" data-name="Path 8708" d="M156,307.344c7.141-1.587,15.339-2.248,23.538,2.645" transform="translate(-154.016 -289.958)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

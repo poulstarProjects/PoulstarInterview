@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="195" height="230" viewBox="0 0 195 230">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.119" y1="0.107" x2="0.866" y2="0.895" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7b93f7"/>
+      <stop offset="1" stop-color="#395df7"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3228" data-name="Rectangle 3228" width="195" height="230" rx="15" transform="translate(700 129)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_10" data-name="Mask Group 10" transform="translate(-700 -129)" clip-path="url(#clip-path)">
+    <g id="note-2" transform="translate(592 -29.605)" opacity="0.053">
+      <path id="Vector" d="M83.622,45.185,78.044,68.977c-4.781,20.548-14.23,28.858-31.988,27.15a59.844,59.844,0,0,1-9.221-1.537l-9.562-2.277C3.537,86.679-3.805,74.954,1.773,51.162L7.351,27.313a59.619,59.619,0,0,1,4.212-12.522c6.659-13.774,17.986-17.474,37-12.977l9.505,2.22C81.914,9.611,89.2,21.393,83.622,45.185Z" transform="translate(147.664 266.238)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Vector-2" data-name="Vector" d="M74.416,81.337A53.345,53.345,0,0,1,61.04,87.484l-8.993,2.96c-22.6,7.286-34.493,1.2-41.835-21.4L2.926,46.56C-4.36,23.963,1.673,12.01,24.27,4.724l8.993-2.96A58.191,58.191,0,0,1,39.923,0a59.619,59.619,0,0,0-4.212,12.522L30.133,36.371c-5.578,23.792,1.764,35.517,25.5,41.152L65.195,79.8A59.841,59.841,0,0,0,74.416,81.337Z" transform="translate(119.304 281.029)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0,27.606,7" transform="translate(179.945 300.552)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0,16.506,4.212" transform="translate(174.367 322.579)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0H136.6V136.6H0Z" transform="translate(244.605 388.605) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

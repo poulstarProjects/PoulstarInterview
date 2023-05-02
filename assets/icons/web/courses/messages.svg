@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.996" height="25.996" viewBox="0 0 25.996 25.996">
+  <g id="messages" transform="translate(-364 -250)">
+    <path id="Vector" d="M16.248,7.582a7.866,7.866,0,0,1-8.124,7.582L7.116,16.378l-.6.715a1.089,1.089,0,0,1-1.82-.249l-1.451-3.2A7.424,7.424,0,0,1,0,7.582,7.866,7.866,0,0,1,8.124,0a8.139,8.139,0,0,1,7.366,4.409A7,7,0,0,1,16.248,7.582Z" transform="translate(366.166 252.166)" fill="none" stroke="#395df7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+    <path id="Vector-2" data-name="Vector" d="M14.547,7.355A7.424,7.424,0,0,1,11.3,13.42l-1.451,3.2a1.084,1.084,0,0,1-1.82.249l-1.6-1.928A8.234,8.234,0,0,1,0,11.969l1.007-1.213A7.866,7.866,0,0,0,9.131,3.174,7,7,0,0,0,8.373,0,7.707,7.707,0,0,1,14.547,7.355Z" transform="translate(373.283 256.575)" fill="none" stroke="#395df7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+    <path id="Vector-3" data-name="Vector" d="M0,0H5.416" transform="translate(371.582 259.749)" fill="none" stroke="#395df7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+    <path id="Vector-4" data-name="Vector" d="M0,0H26V26H0Z" transform="translate(364 250)" fill="none" opacity="0"/>
+  </g>
+</svg>

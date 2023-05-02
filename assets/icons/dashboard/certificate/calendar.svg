@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+    <path d="M0 0v2.75" transform="translate(7.333 1.833)" style="stroke:#395df7;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8px;fill:none"/>
+    <path data-name="Vector" d="M0 0v2.75" transform="translate(14.667 1.833)" style="stroke:#395df7;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8px;fill:none"/>
+    <path data-name="Vector" d="M11.917 0C14.969.165 16.5 1.329 16.5 5.637V11.3c0 3.777-.917 5.665-5.5 5.665H5.5C.917 16.968 0 15.079 0 11.3V5.637C0 1.329 1.531.174 4.583 0z" transform="translate(2.75 3.208)" style="stroke:#395df7;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8px;fill:none"/>
+    <path data-name="Vector" d="M16.042 0H0" transform="translate(2.979 16.133)" style="stroke:#395df7;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8px;fill:none"/>
+    <path data-name="Vector" d="M2.292 0A1.851 1.851 0 0 0 .211 1.806 1.49 1.49 0 0 0 .88 3.08 1.693 1.693 0 0 0 0 4.565C0 5.7.871 6.407 2.292 6.407S4.583 5.7 4.583 4.565a1.673 1.673 0 0 0-.889-1.485 1.48 1.48 0 0 0 .669-1.274A1.843 1.843 0 0 0 2.292 0zm0 2.6a.744.744 0 0 1-.825-.733.733.733 0 0 1 .825-.724.733.733 0 0 1 .825.724.744.744 0 0 1-.825.733zm0 2.667c-.6 0-1.045-.3-1.045-.852s.44-.843 1.045-.843 1.045.3 1.045.843-.437.856-1.045.856z" transform="translate(8.708 7.563)" style="fill:#395df7"/>
+</svg>
