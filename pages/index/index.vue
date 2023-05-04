@@ -1,57 +1,35 @@
 <template>
   <div class="pt-[60px] relative">
-    <section class="bg-[url('@/assets/icons/web/home/mask-gray.png')] bg-left bg-cover bg-opacity-10">
-      <div class="flex items-center gap-[100px] container">
-        <div class="flex flex-col">
-          <div class="flex items-center gap-5">
-            <h1 class="text-blue text-[38px] font-extrabold">پل استار</h1>
-            <!-- <span class="text-yellow bg-[#ffcd031a] py-[6px] px-[10px] rounded-[10px] text-[17px] font-bold">سنین پایه</span> -->
-          </div>
-          <h3 class="text-black text-[28px] font-bold mt-[2px]">
-            مبتکر شتابدهی استعداد و آموزش زبان برنامه نویسی در ایران
-          </h3>
-          <h3 class="text-black text-[18px] font-bold mt-[2px]">
-            فرزندانمان را برای زندگی در دنیای دیجیتال آماده کنیم
-          </h3>
-          <p class="paragraph mt-[50px] max-w-[80%]">
-            پل استار فقط یک موسسه آموزش برنامه نویسی نیست! بلکه پلی به سمت پیشرفت فرزندان مان است. فرزندان ما دارای
-            استعداد های بالقوه ای هستن که میتونیم در کنار هم این استعداد رو شتابدهی کنیم تا در آینده بتونن عضوی موثر در
-            جامعه باشن.
-          </p>
-          <div class="flex items-center mt-20 gap-[50px]">
-            <nuxt-link to="#" class="bg-blue btn">
-              <nuxt-icon name="web/home/user-square" filled/>
-              <span class="font-semibold text-lg text-white">ثبت نام دوره ها</span>
-            </nuxt-link>
-            <a href="#request"
-               class="bg-gray_medium/10 backdrop-blur-[0.8px] py-[11px] px-[15px] rounded-default flex items-center gap-[15px]">
-              <nuxt-icon name="web/home/call-calling" filled/>
-              <span class="font-semibold text-lg text-black">مشاوره رایگان</span>
-            </a>
-          </div>
-        </div>
-        <div class="min-w-fit relative z-[1]">
-          <img src="@/assets/icons/web/home/home.png" alt="" class="min-w-max">
-          <span
-              class="w-[46px] h-[46px] rounded-full bg-[#f7a739] absolute right-[-10px] top-[60px] z-10"
-          ></span>
-          <span
-              class="w-[52px] h-[52px] rounded-full bg-blue absolute right-[10px] bottom-[2px] z-10"
-          ></span>
-          <span
-              class="w-[26px] h-[26px] rounded-full bg-[#53b848] absolute left-[-10px] bottom-[60px] z-10"
-          ></span>
-          <span
-              class="w-[88px] h-[88px] rounded-full bg-red absolute left-[-45px] top-[50px]"
-          ></span>
-          <span
-              class="w-[250px] text-center p-5 rounded-full bg-gradient-to-b from-[#f7a739]/5 to-[#f7a739]/10 absolute left-0 bottopm-[50px] z-10 backdrop-blur-[8px]"
-          >
-            مسیر درست برای آینده شغلی فرزندان شما 😇
-          </span>
-        </div>
+<section class="bg-[url('@/assets/icons/web/home/mask-gray.png')] bg-left bg-cover bg-opacity-10">
+  <div class="flex flex-col items-center container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="min-w-fit relative z-10">
+      <img src="@/assets/icons/web/home/home.png" alt="" class="min-w-max mb-8">
+      <span class="w-6 h-6 rounded-full bg-[#f7a739] absolute right-[-2px] top-[-2px] z-10"></span>
+      <span class="w-6 h-6 rounded-full bg-blue absolute right-[2px] bottom-[-2px] z-10"></span>
+      <span class="w-3 h-3 rounded-full bg-[#53b848] absolute left-[-2px] bottom-[-2px] z-10"></span>
+      <span class="w-10 h-10 rounded-full bg-red absolute left-[-5px] top-[20px]"></span>
+    </div>
+    <div class="flex flex-col items-center justify-center text-center mt-16 mb-8">
+      <h1 class="text-blue text-3xl font-extrabold mb-2">PoulStar</h1>
+      <h3 class="text-black text-xl font-bold mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+      <h3 class="text-black text-lg font-bold mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+      <p class="paragraph max-w-md mb-8">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi expedita beatae excepturi doloremque dolores dignissimos quam, in, omnis numquam recusandae ipsam incidunt eum hic? Blanditiis nobis placeat accusamus ullam tempore!
+      </p>
+      <div class="flex flex-col items-center gap-4">
+        <nuxt-link to="#" class="bg-blue btn mb-2">
+          <nuxt-icon name="web/home/user-square" filled />
+          <span class="font-semibold text-lg text-white ml-2">Register</span>
+        </nuxt-link>
+        <a href="#request" class="bg-gray_medium/10 backdrop-blur-[0.8px] py-2 px-4 rounded-default flex items-center gap-2">
+          <nuxt-icon name="web/home/call-calling" filled />
+          <span class="font-semibold text-lg text-black">Contact</span>
+        </a>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
 
     <section class="flex items-center gap-[75px] container mt-[150px]">
       <div class="min-w-fit group relative">
