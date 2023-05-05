@@ -384,7 +384,7 @@
       </p>
 
       <div class="flex flex-col tablet:flex-row gap-[100px] mt-[60px]">
-        <div class="min-w-fit group relative invisible tablet:visible">
+        <div class="min-w-fit group relative hidden tablet:block">
           <img
             src="@/assets/images/web/home/why.png"
             alt="why"
@@ -427,7 +427,6 @@
       </div>
 
       <div class="grid grid-cols-2 tablet:grid-cols-4 mt-[100px]">
-
         <div class="grid grid-cols-1 tablet:grid-cols-2 gap-[30px]">
           <div
             class="flex items-center justify-center rounded-full h-[94px] w-[94px] bg-red font-extrabold text-[30px] text-white ltr"
@@ -451,7 +450,7 @@
             <span class="text-lg text-black font-bold">برگزار شده</span>
           </div>
         </div>
-        
+
         <div class="flex items-center gap-[30px]">
           <div
             class="flex items-center justify-center rounded-full h-[94px] min-w-[94px] bg-yellow font-extrabold text-[30px] text-white ltr"
@@ -480,15 +479,19 @@
     </section>
 
     <section class="mt-[100px] bg-[#fbfcfe] py-[100px] relative">
-      <div class="container grid grid-cols-2 gap-[100px]">
+      <div class="container grid grid-cols-1 tablet:grid-cols-2 gap-[100px]">
         <div>
-          <h1 class="text-black text-[32px] font-bold">
+          <h1
+            class="text-black text-[32px] font-bold text-center tablet:text-right"
+          >
             اسپانسرینگ و بورسیه ستاره های پل استار
           </h1>
-          <h3 class="text-blue text-base font-semibold mt-[10px]">
+          <h3
+            class="text-blue text-base font-semibold mt-[10px] text-center tablet:text-right"
+          >
             استعدادها را شکوفا میکنیم :)
           </h3>
-          <p class="paragraph mt-[30px]">
+          <p class="paragraph mt-[30px] text-center tablet:text-right">
             ما در پل استار، از سال های گذشته تلاش کردیم تا بتونیم امید و عزت نفس
             گرفته شده از بچه هامون رو بهشون برگردونیم و با آموزش مهارت های روز
             دنیا چشم اندازشون رو به آینده شون بلندتر کنیم. در شرایط غیرمعمول
@@ -500,10 +503,21 @@
             حامی بچه ها بودند و یا دلشون میخواد در ادامه راه حامی استعدادهای
             ستاره هامون باشن.
           </p>
-          <nuxt-link to="#" class="bg-blue btn mt-[60px] max-w-fit">
-            <span class="text-white">اطلاعات بیشتر</span>
-            <nuxt-icon name="web/home/arrow-left" filled />
-          </nuxt-link>
+
+          <div class="overflow-hidden rounded-default mt-7">
+            <img
+              src="@/assets/images/web/home/8.jpg"
+              alt="introduction"
+              class="h-full block tablet:hidden"
+            />
+          </div>
+
+          <div class="flex items-center justify-center tablet:items-start tablet:justify-start">
+            <nuxt-link to="#" class="bg-blue btn mt-[60px] max-w-fit">
+              <span class="text-white">اطلاعات بیشتر</span>
+              <nuxt-icon name="web/home/arrow-left" filled />
+            </nuxt-link>
+          </div>
         </div>
       </div>
       <div
@@ -512,7 +526,7 @@
         <img
           src="@/assets/images/web/home/8.jpg"
           alt="introduction"
-          class="h-full"
+          class="h-full hidden tablet:block"
         />
       </div>
     </section>
