@@ -148,13 +148,19 @@
           دوره های اصلی و آنلاین موسسه پل استار
         </h3>
 
-        <div class="grid grid-cols-1 tablet:grid-cols-3 gap-[30px] mt-[50px] items-center">
+        <div
+          class="grid grid-cols-1 tablet:grid-cols-3 gap-[30px] mt-[50px] items-center"
+        >
           <div
             class="relative rounded-[30px] overflow-hidden h-fit"
             v-for="item in data?.data?.categories"
             :key="item.uid"
           >
-            <img class="rounded-[30px]" :src="item.intro_image_path" :alt="item.intro_image_alt" />
+            <img
+              class="rounded-[30px]"
+              :src="item.intro_image_path"
+              :alt="item.intro_image_alt"
+            />
             <div
               class="text-right rounded-[30px] py-[30px] px-5 bg-white/75 backdrop-blur-[30px] absolute bottom-0 right-0 left-0"
             >
@@ -269,18 +275,24 @@
       </swiper>
     </section>
 
-    <section class="mt-[150px] relative">
+    <section class="mt-[150px] relative bg-blue tablet:bg-white">
       <div
-        class="grid grid-cols-12 container py-[50px] bg-blue rounded-tr-[50px] rounded-br-[50px] pr-default"
+        class="grid grid-cols-1 tablet:grid-cols-12 container py-[50px] bg-blue rounded-tr-[50px] rounded-br-[50px] pr-default"
       >
         <div class="relative z-10 col-span-7 ml-[50px]">
-          <h1 class="text-white text-[70px] font-bold font-hodhod">
+          <h1
+            class="text-yellow text-[70px] font-bold font-hodhod text-center tablet:text-right tablet:text-white"
+          >
             کلوب پل استار
           </h1>
-          <div class="text-[#fff6eb] text-base font-bold mt-5">
+          <div
+            class="text-[#fff6eb] text-base font-bold mt-5 text-right visible max-[960px]:invisible"
+          >
             به اجتماع متخصصین پل استاری بپیوندید.
           </div>
-          <p class="paragraph text-white mt-[30px]">
+          <p
+            class="paragraph text-yellow mt-[30px] text-center table:text-right tablet:text-white"
+          >
             هدف ما در پل استار رسوندن بچه ها به موفقیت واقعی هستش موفقیتی که
             متناسب با نیاز روز دنیاست و محدود به نقطه جغرافیایی خاصی نیست. اما
             این پایان راه نیست و فقط بخشی از خدماتی هستش که بچه ها اینجا دریافت
@@ -292,7 +304,10 @@
             تر و حساب شده تری برای ادامه تحصیل و آینده کاریشون داشته باشن و برای
             حضور در تمامی فضاهای بین المللی آماده بشن.
           </p>
-          <div class="flex items-center justify-between mt-[30px]">
+
+          <div
+            class="grid grid-cols-2 tablet:grid-cols-4 items-center justify-center mt-[30px]"
+          >
             <div
               class="flex flex-col justify-center items-center py-[30px] bg-white/20 backdrop-blur-[1.5px] gap-[15px] w-[135px] rounded-default"
             >
@@ -318,6 +333,7 @@
               <div class="text-white text-base font-bold">ارتباط با دیگران</div>
             </div>
           </div>
+
           <div class="flex items-center justify-between mt-[60px]">
             <div class="flex items-center gap-[10px]">
               <nuxt-icon
@@ -332,7 +348,9 @@
             <button class="bg-white text-blue btn">به زودی</button>
           </div>
         </div>
-        <div class="relative z-10 col-span-5">
+
+        <!-- img -->
+        <div class="relative z-10 col-span-5 order-first tablet:order-last">
           <img
             src="@/assets/images/web/home/6.jpg"
             alt="clube"
@@ -340,6 +358,7 @@
           />
         </div>
       </div>
+      <!-- mask -->
       <div class="h-full w-full absolute left-0 bottom-0 z-10">
         <div
           class="flex w-full h-full bg-[url('@/assets/icons/web/home/mask.png')] bg-right bg-cover opacity-30"
