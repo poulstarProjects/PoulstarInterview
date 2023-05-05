@@ -309,25 +309,25 @@
             class="grid grid-cols-2 tablet:grid-cols-4 items-center justify-center mt-[30px]"
           >
             <div
-              class="flex flex-col justify-center items-center py-[30px] bg-white/20 backdrop-blur-[1.5px] gap-[15px] w-[135px] rounded-default"
+            class="flex flex-row tablet:flex-col justify-center items-center tablet:py-[30px] py-[30px] bg-white/20 backdrop-blur-[1.5px] gap-[15px] tablet:w-[135px] rounded-default m-5"
             >
               <nuxt-icon name="web/home/people" filled />
               <div class="text-white text-base font-bold">کار گروهی</div>
             </div>
             <div
-              class="flex flex-col justify-center items-center py-[30px] bg-white/20 backdrop-blur-[1.5px] gap-[15px] w-[135px] rounded-default"
+            class="flex flex-row tablet:flex-col justify-center items-center tablet:py-[30px] py-[30px] bg-white/20 backdrop-blur-[1.5px] gap-[15px] tablet:w-[135px] rounded-default m-5"
             >
               <nuxt-icon name="web/home/folder-open" filled />
               <div class="text-white text-base font-bold">پروژه کارفرما</div>
             </div>
             <div
-              class="flex flex-col justify-center items-center py-[30px] bg-white/20 backdrop-blur-[1.5px] gap-[15px] w-[135px] rounded-default"
+              class="flex flex-row tablet:flex-col justify-center items-center tablet:py-[30px] py-[30px] bg-white/20 backdrop-blur-[1.5px] gap-[15px] tablet:w-[135px] rounded-default m-5"
             >
               <nuxt-icon name="web/home/cup" filled />
               <div class="text-white text-base font-bold">بازی و رقابت</div>
             </div>
             <div
-              class="flex flex-col justify-center items-center py-[30px] bg-white/20 backdrop-blur-[1.5px] gap-[15px] w-[135px] rounded-default"
+              class="flex flex-row tablet:flex-col justify-center items-center tablet:py-[30px] py-[30px] bg-white/20 backdrop-blur-[1.5px] gap-[15px] tablet:w-[135px] rounded-default m-5"
             >
               <nuxt-icon name="web/home/messages" filled />
               <div class="text-white text-base font-bold">ارتباط با دیگران</div>
@@ -634,8 +634,14 @@
         </div>
       </div>
       <div class="col-span-6">
-        <h1 class="text-black text-[32px] mt-12 font-bold text-center tablet:mt-px tablet:text-right">درخواست مشاوره</h1>
-        <h3 class="text-blue text-base font-semibold mt-[10px] text-center tablet:text-right">
+        <h1
+          class="text-black text-[32px] mt-12 font-bold text-center tablet:mt-px tablet:text-right"
+        >
+          درخواست مشاوره
+        </h1>
+        <h3
+          class="text-blue text-base font-semibold mt-[10px] text-center tablet:text-right"
+        >
           برای انتخاب مسیر بهتر و راهنمایی، با مشاوران ما در تماس باشید
         </h3>
         <div class="grid grid-cols-2 gap-[30px] mt-[50px]">
@@ -852,7 +858,7 @@ const dialog = ref(false);
 const dialogStatus = ref(null);
 const dialogError = ref(null);
 const submit = () => {
-  const url = 'https://panel.metafi.ir/api/v1/wb/advice';
+  const url = "https://panel.metafi.ir/api/v1/wb/advice";
 
   const requestBody = {
     full_name: form.full_name,
@@ -865,22 +871,22 @@ const submit = () => {
   };
 
   const config = {
-    baseURL: 'https://panel.metafi.ir/api/v1',
+    baseURL: "https://panel.metafi.ir/api/v1",
     headers: {
-      Accept: 'application/json',
+      Accept: "application/json",
     },
   };
 
-  axios.post(url, requestBody, config)
-    .then(response => {
+  axios
+    .post(url, requestBody, config)
+    .then((response) => {
       console.log(response.data);
       // console.log("200");
     })
-    .catch(error => {
+    .catch((error) => {
       console.error(error);
     });
 };
-
 </script>
 
 <style scoped>
