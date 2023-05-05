@@ -97,8 +97,10 @@
         />
       </div>
 
-      <div class="flex flex-col items-center tablet:items-start ">
-        <h1 class="text-black text-[32px] font-bold tablet:text-center">معرفی پل استار</h1>
+      <div class="flex flex-col items-center tablet:items-start">
+        <h1 class="text-black text-[32px] font-bold tablet:text-center">
+          معرفی پل استار
+        </h1>
         <h3 class="text-blue text-base font-semibold mt-[10px]">
           راه ستاره شدن فرزندان شما ⭐️
         </h3>
@@ -146,13 +148,13 @@
           دوره های اصلی و آنلاین موسسه پل استار
         </h3>
 
-        <div class="grid grid-cols-3 gap-[30px] mt-[50px]">
+        <div class="grid grid-cols-1 tablet:grid-cols-3 gap-[30px] mt-[50px] items-center">
           <div
             class="relative rounded-[30px] overflow-hidden h-fit"
             v-for="item in data?.data?.categories"
             :key="item.uid"
           >
-            <img :src="item.intro_image_path" :alt="item.intro_image_alt" />
+            <img class="rounded-[30px]" :src="item.intro_image_path" :alt="item.intro_image_alt" />
             <div
               class="text-right rounded-[30px] py-[30px] px-5 bg-white/75 backdrop-blur-[30px] absolute bottom-0 right-0 left-0"
             >
@@ -198,7 +200,7 @@
       </div>
 
       <div
-        class="h-[550px] w-[70%] rounded-tl-[50px] rounded-bl-[50px] bg-yellow absolute right-0 bottom-0"
+        class="h-[550px] w-[70%] rounded-tl-[50px] rounded-bl-[50px] bg-yellow absolute right-0 bottom-0 visible max-[960px]:invisible"
       >
         <div
           class="bg-[url('@/assets/icons/web/home/mask.png')] bg-right bg-cover flex w-full h-full"
