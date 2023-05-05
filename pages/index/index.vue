@@ -4,7 +4,9 @@
       class="bg-[url('@/assets/icons/web/home/mask-gray.png')] bg-left bg-cover bg-opacity-10"
     >
       <div class="container flex flex-col tablet:flex-row items-center gap-10">
-        <div class="flex flex-col items-center tablet:items-start order-2 tablet:order-1">
+        <div
+          class="flex flex-col items-center tablet:items-start order-2 tablet:order-1"
+        >
           <div class="flex items-center gap-5 text-center tablet:text-right">
             <h1 class="text-blue text-[38px] font-extrabold">پل استار</h1>
           </div>
@@ -45,7 +47,9 @@
           </div>
         </div>
 
-        <div class="relative z-10 tablet:w-fit tablet:min-w-fit order-1 tablet:order-2">
+        <div
+          class="relative z-10 tablet:w-fit tablet:min-w-fit order-1 tablet:order-2"
+        >
           <img
             src="@/assets/icons/web/home/home.png"
             alt=""
@@ -72,7 +76,9 @@
       </div>
     </section>
 
-    <section class="flex items-center gap-[75px] container mt-[150px]">
+    <section
+      class="flex flex-col tablet:flex-row items-center gap-[75px] container mt-[150px]"
+    >
       <div class="min-w-fit group relative">
         <span
           class="flex items-center justify-center absolute top-0 bottom-0 right-0 left-0"
@@ -90,19 +96,20 @@
           class="min-w-max"
         />
       </div>
-      <div class="flex flex-col">
-        <h1 class="text-black text-[32px] font-bold">معرفی پل استار</h1>
+
+      <div class="flex flex-col items-center tablet:items-start ">
+        <h1 class="text-black text-[32px] font-bold tablet:text-center">معرفی پل استار</h1>
         <h3 class="text-blue text-base font-semibold mt-[10px]">
           راه ستاره شدن فرزندان شما ⭐️
         </h3>
-        <p class="paragraph mt-[30px]">
+        <p class="paragraph mt-[30px] text-center tablet:text-right">
           آموزش مهارت ارزشمند برنامه نویسی بچه هارو وارد یه دنیای پویا و به روز
           میکنه که میتونه تاثیرات فوق العاده ای رو در زندگی آینده اونها داشته
           باشه پل استار اولین موسسه ای که به صورت تخصصی با تلفیق علوم مختلف به
           اموزش زبان برنامه نویسی به کودک و نوجوان پرداخته تا درک بهتری نسبت به
           این مهارت و ارتباطش با سایر علوم پیدا کنن
         </p>
-        <div class="flex items-center mt-[30px]">
+        <div class="flex items-center mt-[30px] visible max-[960px]:invisible">
           <button
             @click="showVideo = true"
             class="bg-gray_medium/10 backdrop-blur-[0.8px] pl-[30px] rounded-[32px] flex items-center gap-[15px]"
