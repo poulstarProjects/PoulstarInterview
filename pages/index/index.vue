@@ -372,7 +372,7 @@
       <h3 class="text-blue text-base font-semibold mt-[10px]">
         چکیده ای از فعالیت های موفق پل استار
       </h3>
-      <p class="paragraph mt-[30px]">
+      <p class="paragraph mt-[30px] text-center tablet:text-right">
         یادگیری یه سری چیزا تو زندگی مثل چراغی میمونه که مسیر آینده رو روشن
         میکنه مهارتی که هر روزه همه ضرورتشو بیشتر از قبل درک کردیم و تیکه گمشده
         ای از پازل موفقیت آینده بچه هاست مهارت برنامه نویسیه. آموزش مهارت
@@ -383,8 +383,8 @@
         رقابت با بقیه نوجوون های دنیا قرار بدیم و بهشون افتخار کنیم.
       </p>
 
-      <div class="flex gap-[100px] mt-[60px]">
-        <div class="min-w-fit group relative">
+      <div class="flex flex-col tablet:flex-row gap-[100px] mt-[60px]">
+        <div class="min-w-fit group relative invisible tablet:visible">
           <img
             src="@/assets/images/web/home/why.png"
             alt="why"
@@ -426,8 +426,9 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-4 mt-[100px]">
-        <div class="flex items-center gap-[30px]">
+      <div class="grid grid-cols-2 tablet:grid-cols-4 mt-[100px]">
+
+        <div class="grid grid-cols-1 tablet:grid-cols-2 gap-[30px]">
           <div
             class="flex items-center justify-center rounded-full h-[94px] w-[94px] bg-red font-extrabold text-[30px] text-white ltr"
           >
@@ -438,17 +439,19 @@
             <span class="text-lg text-black font-bold">دانش پذیر</span>
           </div>
         </div>
-        <div class="flex items-center gap-[30px]">
+
+        <div class="grid grid-cols-1 tablet:grid-cols-2 gap-[30px]">
           <div
             class="flex items-center justify-center rounded-full h-[94px] w-[94px] bg-blue font-extrabold text-[30px] text-white ltr"
           >
             +200
           </div>
           <div class="flex flex-col items-start">
-            <span class="text-lg text-black font-bold">بیش از 200 دوزه</span>
+            <span class="text-lg text-black font-bold">بیش از 200 دوره</span>
             <span class="text-lg text-black font-bold">برگزار شده</span>
           </div>
         </div>
+        
         <div class="flex items-center gap-[30px]">
           <div
             class="flex items-center justify-center rounded-full h-[94px] min-w-[94px] bg-yellow font-extrabold text-[30px] text-white ltr"
