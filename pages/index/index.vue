@@ -427,31 +427,33 @@
       </div>
 
       <div class="grid grid-cols-2 tablet:grid-cols-4 mt-[100px]">
-        <div class="grid grid-cols-1 tablet:grid-cols-2 gap-[30px]">
+        <div
+          class="grid grid-cols-1 tablet:grid-cols-2 justify-center items-center"
+        >
           <div
             class="flex items-center justify-center rounded-full h-[94px] w-[94px] bg-red font-extrabold text-[30px] text-white ltr"
           >
             +1500
           </div>
-          <div class="flex flex-col items-start">
+          <div class="flex flex-col items-center">
             <span class="text-lg text-black font-bold">بیش از 1500 نفر</span>
             <span class="text-lg text-black font-bold">دانش پذیر</span>
           </div>
         </div>
 
-        <div class="grid grid-cols-1 tablet:grid-cols-2 gap-[30px]">
+        <div class="grid grid-cols-1 tablet:grid-cols-2">
           <div
             class="flex items-center justify-center rounded-full h-[94px] w-[94px] bg-blue font-extrabold text-[30px] text-white ltr"
           >
             +200
           </div>
-          <div class="flex flex-col items-start">
+          <div class="flex flex-col items-center">
             <span class="text-lg text-black font-bold">بیش از 200 دوره</span>
             <span class="text-lg text-black font-bold">برگزار شده</span>
           </div>
         </div>
 
-        <div class="flex items-center gap-[30px]">
+        <div class="flex items-center">
           <div
             class="flex items-center justify-center rounded-full h-[94px] min-w-[94px] bg-yellow font-extrabold text-[30px] text-white ltr"
           >
@@ -464,7 +466,7 @@
             >
           </div>
         </div>
-        <div class="flex items-center gap-[30px]">
+        <div class="flex items-center">
           <div
             class="flex items-center justify-center rounded-full h-[94px] w-[94px] bg-green font-extrabold text-[30px] text-white ltr"
           >
@@ -512,7 +514,9 @@
             />
           </div>
 
-          <div class="flex items-center justify-center tablet:items-start tablet:justify-start">
+          <div
+            class="flex items-center justify-center tablet:items-start tablet:justify-start"
+          >
             <nuxt-link to="#" class="bg-blue btn mt-[60px] max-w-fit">
               <span class="text-white">اطلاعات بیشتر</span>
               <nuxt-icon name="web/home/arrow-left" filled />
@@ -610,12 +614,12 @@
     </section>
 
     <section
-      class="container grid grid-cols-12 mt-[100px]"
+      class="container grid grid-cols-1 tablet:grid-cols-12 mt-[100px]"
       name="request"
       id="request"
     >
       <div
-        class="w-full flex items-center justify-center relative col-span-6 h-fit"
+        class="w-full flex items-center justify-center relative col-span-6 h-fit order-first"
       >
         <img
           src="@/assets/images/web/home/counsolting.png"
@@ -630,8 +634,8 @@
         </div>
       </div>
       <div class="col-span-6">
-        <h1 class="text-black text-[32px] font-bold">درخواست مشاوره</h1>
-        <h3 class="text-blue text-base font-semibold mt-[10px]">
+        <h1 class="text-black text-[32px] mt-12 font-bold text-center tablet:mt-px tablet:text-right">درخواست مشاوره</h1>
+        <h3 class="text-blue text-base font-semibold mt-[10px] text-center tablet:text-right">
           برای انتخاب مسیر بهتر و راهنمایی، با مشاوران ما در تماس باشید
         </h3>
         <div class="grid grid-cols-2 gap-[30px] mt-[50px]">
@@ -848,12 +852,35 @@ const dialog = ref(false);
 const dialogStatus = ref(null);
 const dialogError = ref(null);
 const submit = () => {
-  // todo advice request
-  // endpoint => /wb/advice
-  // type => post
-  // baseURL=> 'https://panel.metafi.ir/api/v1'
-  // headers => Accept:application/json
+  const url = 'https://panel.metafi.ir/api/v1/wb/advice';
+
+  const requestBody = {
+    full_name: form.full_name,
+    term_category_uid: form.term_category_uid,
+    birthday: form.birthday,
+    province_id: form.province_id,
+    phone: form.phone,
+    call_time: form.call_time,
+    message: form.message,
+  };
+
+  const config = {
+    baseURL: 'https://panel.metafi.ir/api/v1',
+    headers: {
+      Accept: 'application/json',
+    },
+  };
+
+  axios.post(url, requestBody, config)
+    .then(response => {
+      console.log(response.data);
+      // console.log("200");
+    })
+    .catch(error => {
+      console.error(error);
+    });
 };
+
 </script>
 
 <style scoped>
